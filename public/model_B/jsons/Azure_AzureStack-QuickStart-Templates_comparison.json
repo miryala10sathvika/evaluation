@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is cluttered and difficult to understand. The layout is complex with overlapping lines and components, making it hard for both technical and non-technical stakeholders to follow. Labels and components are not clearly defined or named, reducing overall clarity."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram does not include the same components as the ground truth diagram. Key elements like 'App Service plan', 'Web App', 'API App', and 'Azure SQL Database' are missing. Instead, it introduces unrelated components, indicating a lack of completeness."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "There is a lack of consistency in the use of symbols, styles, and notations. The generated diagram does not align structurally or semantically with the ground truth diagram. Different styles and components are used, which are not present in the ground truth."
+  }
+}

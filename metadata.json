@@ -1,0 +1,5 @@
+{
+  "name": "EvalStudio - Human Evaluation Platform",
+  "description": "A specialized interface for comparing Ground Truth images against multiple candidate outputs with integrated LLM judgment validation.",
+  "requestFramePermissions": []
+}

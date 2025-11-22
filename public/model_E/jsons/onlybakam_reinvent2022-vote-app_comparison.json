@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Partially Meets Expectations",
+    "justification": "The generated diagram uses clear labels and icons, but the layout is less intuitive compared to the ground truth. The flow of information is not as straightforward, which may confuse non-technical stakeholders."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is missing several components and connections present in the ground truth, such as the detailed request/response flow and the subscription update mechanism."
+  },
+  "Consistency": {
+    "rating": "Partially Meets Expectations",
+    "justification": "While the generated diagram uses consistent styles and icons, it does not align structurally with the ground truth. The components and their interactions are not represented in the same way."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is cluttered and complex, making it difficult for both technical and non-technical stakeholders to understand. The layout is not logical or readable, and the connections between components are not clear. Labels and symbols are not as descriptive or organized as in the ground truth diagram."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram does not include the same components or structure as the ground truth diagram. Key elements from the ground truth, such as the Framework, Engine, and Embedder sections, are missing or not represented accurately."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram lacks consistency in terms of symbols, styles, and notations compared to the ground truth. The structure and semantics are not aligned, with different components and connections that do not match the original diagram."
+  }
+}

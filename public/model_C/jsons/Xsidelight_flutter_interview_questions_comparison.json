@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is entirely different from the ground truth diagram. It uses different components, labels, and structure, making it unclear for stakeholders expecting the original content."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram lacks all the elements present in the ground truth. It introduces new elements and omits all original components, failing to capture the intended architecture."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "There is no consistency between the diagrams. The generated diagram uses different styles, symbols, and notations, and does not align structurally or semantically with the ground truth."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is complex and difficult to understand compared to the ground truth. The labels and components are not as clear or descriptive, and the layout is more cluttered, making it hard for stakeholders to follow."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram includes different components and connections that do not align with the ground truth. Several elements from the ground truth are missing, and there are additional elements not present in the original."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram uses different styles, symbols, and notations compared to the ground truth. There is a lack of structural and semantic alignment, leading to inconsistencies throughout the diagram."
+  }
+}
