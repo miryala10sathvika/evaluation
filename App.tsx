@@ -6,9 +6,6 @@ import { ComparisonView } from './components/ComparisonView';
 import { EvaluationForm } from './components/EvaluationForm';
 import { Download, ChevronRight, ChevronLeft, Check, Menu, FileSpreadsheet, FolderOpen, User, LogOut, Users } from 'lucide-react';
 
-// --- CONFIGURATION ---
-const DEFINED_USERS = ['Sathvika', 'Rudro'];
-
 // Initial empty evaluation state
 const createEmptyEvaluation = (): UserEvaluation => ({
   clarityAgree: null,
@@ -28,6 +25,15 @@ const createEmptyEvaluation = (): UserEvaluation => ({
 
 // 1. Login / User Selection Screen
 const UserSelectionScreen: React.FC<{ onSelect: (user: string) => void }> = ({ onSelect }) => {
+  const [name, setName] = useState('');
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (name.trim()) {
+      onSelect(name.trim());
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
       <div className="bg-white p-8 rounded-2xl shadow-xl max-w-md w-full text-center border border-slate-200">
@@ -35,26 +41,32 @@ const UserSelectionScreen: React.FC<{ onSelect: (user: string) => void }> = ({ o
           <Users size={32} />
         </div>
         <h1 className="text-2xl font-bold text-slate-900 mb-2">Welcome to EvalStudio</h1>
-        <p className="text-slate-500 mb-8">Please identify yourself to load your personal evaluation workspace.</p>
-        
-        <div className="space-y-3">
-          {DEFINED_USERS.map(user => (
-            <button
-              key={user}
-              onClick={() => onSelect(user)}
-              className="w-full p-4 rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50 hover:shadow-md transition-all group flex items-center justify-between"
-            >
-              <div className="flex items-center gap-3">
-                <div className="bg-slate-100 p-2 rounded-full group-hover:bg-white text-slate-600 group-hover:text-indigo-600 transition-colors">
-                  <User size={20} />
-                </div>
-                <span className="font-semibold text-slate-700 group-hover:text-indigo-700 text-lg">{user}</span>
-              </div>
-              <ChevronRight className="text-slate-300 group-hover:text-indigo-500" />
-            </button>
-          ))}
-        </div>
-        
+        <p className="text-slate-500 mb-8">Please enter your name to load your personal evaluation workspace.</p>
+
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <User size={20} className="text-slate-400" />
+            </div>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              placeholder="Please enter your name"
+              className="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all text-lg"
+              autoFocus
+            />
+          </div>
+          <button
+            type="submit"
+            disabled={!name.trim()}
+            className="w-full p-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-300 disabled:cursor-not-allowed text-white font-semibold text-lg transition-all flex items-center justify-center gap-2"
+          >
+            Continue
+            <ChevronRight size={20} />
+          </button>
+        </form>
+
         <div className="mt-8 text-xs text-slate-400">
           Data is stored locally in your browser and is separate for each user.
         </div>
