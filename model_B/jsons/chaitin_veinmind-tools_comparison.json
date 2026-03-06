@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Partially Meets Expectations",
+    "justification": "The generated diagram uses a variety of symbols and labels, which may be clear to technical stakeholders but could be overwhelming for non-technical ones. The layout is complex, with many connections that could be confusing without proper context. Some labels are clear, but others might require additional explanation."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram includes many additional elements and connections not present in the ground truth. It also lacks some components from the ground truth, such as the 'runner' and 'plugin system'. This makes it difficult to determine if all necessary information is included."
+  },
+  "Consistency": {
+    "rating": "Partially Meets Expectations",
+    "justification": "There is some structural alignment with the ground truth, such as the presence of plugins and a runner-like component, but the styles and notations differ significantly. The generated diagram uses different symbols and styles, which affects consistency with the ground truth."
+  }
+}

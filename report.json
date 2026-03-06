@@ -1,0 +1,64 @@
+{
+    "dir_1": {
+        "source_json_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/zeroShot/Claude_3.5_Sonnet/results/LLM_as_a_Judge_openai_outputs_3cs",
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/zeroShot/Claude_3.5_Sonnet/results/zeroShot_claude_output_images",
+        "jsons_copied": 19,
+        "images_copied": 19,
+        "missing_json": [
+            "ev2900_OpenSearch_Dashboard_Nginx_Proxy_comparison.json",
+            "Azure_AzureStack-QuickStart-Templates_comparison.json",
+            "shinesolutions_sitechecker-slackbot_comparison.json"
+        ],
+        "missing_image": [
+            "ev2900_OpenSearch_Dashboard_Nginx_Proxy",
+            "Azure_AzureStack-QuickStart-Templates",
+            "shinesolutions_sitechecker-slackbot"
+        ]
+    },
+    "dir_2": {
+        "source_json_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/zeroShot/Claude_Code/results/LLM_as_a_Judge_openai_outputs_3cs",
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/zeroShot/Claude_Code/results/zeroShot_claude_agent_output_images",
+        "jsons_copied": 22,
+        "images_copied": 22,
+        "missing_json": [],
+        "missing_image": []
+    },
+    "dir_3": {
+        "source_json_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/1shot/Deepseek_V2.5/results/LLM_as_a_Judge_openai_outputs_3cs",
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/1shot/Deepseek_V2.5/results/oneShot_deepseek_output_images",
+        "jsons_copied": 22,
+        "images_copied": 22,
+        "missing_json": [],
+        "missing_image": []
+    },
+    "dir_4": {
+        "source_json_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/fewshot/Claude_3.5_Sonnet/results/LLM_as_a_Judge_openai_outputs_3cs",
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/fewshot/Claude_3.5_Sonnet/results/fewShot_claude_output_images",
+        "jsons_copied": 20,
+        "images_copied": 20,
+        "missing_json": [
+            "DevOps-Represent_devopsgirls-bootcamp-cn-2_comparison.json",
+            "caraml-dev_turing_comparison.json"
+        ],
+        "missing_image": [
+            "DevOps-Represent_devopsgirls-bootcamp-cn-2",
+            "caraml-dev_turing"
+        ]
+    },
+    "dir_5": {
+        "source_json_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/Approach/Claude/code/LLM_as_a_Judge_openai_outputs_3cs",
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/Approach/Claude/code/approach_claude_python_images",
+        "jsons_copied": 22,
+        "images_copied": 22,
+        "missing_json": [],
+        "missing_image": []
+    },
+    "dir_6": {
+        "source_json_folder": null,
+        "source_image_folder": "/Users/miryalasathvika/research/CodeToDiagram/experiments/promptTechniques/1shot/Deepseek_V2.5/results/initial_images",
+        "jsons_copied": 0,
+        "images_copied": 22,
+        "missing_json": [],
+        "missing_image": []
+    }
+}

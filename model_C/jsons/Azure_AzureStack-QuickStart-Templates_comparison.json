@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is significantly different from the ground truth. It uses different symbols, labels, and layout, making it unclear and difficult to understand for stakeholders familiar with the original diagram."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram lacks many elements present in the ground truth, such as Azure Active Directory, Traffic Manager, and specific service plans. It introduces unrelated elements like ARM Templates and Scripts, which are not part of the original architecture."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "There is no structural or semantic alignment between the generated diagram and the ground truth. The styles, notations, and components used are entirely different, leading to a lack of consistency."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Clarity": {
+    "rating": "Partially Meets Expectations",
+    "justification": "The generated diagram uses different symbols and notations compared to the ground truth, which may cause confusion. The labels and connections are clear, but the overall layout is more complex and less intuitive for non-technical stakeholders."
+  },
+  "Completeness": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram includes different components and connections that are not present in the ground truth. Key elements like 'User interaction', 'Event', 'View', and 'UI' are missing, while additional components such as 'Bridge', 'Shell (Web)', 'Shell (Android)', and 'Shell (iOS)' are included."
+  },
+  "Consistency": {
+    "rating": "Does Not Meet Expectations",
+    "justification": "The generated diagram is not structurally or semantically aligned with the ground truth. It uses different styles, symbols, and notations, leading to inconsistencies in representation and interpretation."
+  }
+}
